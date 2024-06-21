@@ -1,6 +1,6 @@
 import pygame
-from configs.player import Player
-from configs.window import Window
+from starcrusher2025_games.configs.player import Player
+from starcrusher2025_games.configs.window import Window
 
 class Game:
     def __init__(self):
