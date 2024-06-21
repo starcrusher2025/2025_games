@@ -15,7 +15,7 @@ pip install starcrusher2025-games
 To use starcrusher2025 in your Python projects, follow the examples below:
 
 ```python
-from starcrusher2025 import Game
+from starcrusher2025_games import Game
 
 # Initialize the game instance
 game = Game()
@@ -90,7 +90,7 @@ Stops the game loop and terminates the game.
 
 ## Example
 ```python
-from starcrusher2025 import Game
+from starcrusher2025_games import Game
 
 # Initialize the game instance
 game = Game()
