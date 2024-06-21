@@ -50,11 +50,24 @@ class Player:
     def set_speed(self, speed):
         self.speed = speed
 
-    def set_color(self, color):
-        self.color = color
+    def set_color(self, r,g,b):
+        try:
+            r = int(r)
+            g = int(g)
+            b = int(b)
+
+            if 0 <= r <= 255 and 0 <= g <= 255 and 0 <= b <= 255:
+                self.color = (r, g, b)
+            else:
+                print("RGB values must be between 0 and 255.")
+        except ValueError:
+            print("Invalid RGB values. Please provide integers.")
 
     def load_player_image(self, image_path):
         self.load_image(image_path)
+
+    def get_player_position(self):
+        return tuple(self.position)
 
     @classmethod
     def create(cls, start_pos=(400, 300), size=(50, 50), speed=5, color=(255, 0, 0), image_path=None):
