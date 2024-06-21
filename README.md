@@ -1,4 +1,3 @@
-```markdown
 # Game Engine Package - StarCrusher2025
 
 ## Introduction
@@ -110,4 +109,3 @@ game.window.set_size(800, 600)  # Sets the game window size
 
 # Start the game loop
 game.start()
-```
