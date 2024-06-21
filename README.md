@@ -1,17 +1,18 @@
-# Game Engine Package - StarCrusher2025
+```markdown
+# Game Engine Package - starcrusher2025
 
 ## Introduction
-This package provides a simple game engine framework named StarCrusher2025. It allows developers to create 2D games using Pygame by providing essential functionalities such as managing the game window, controlling player entities, handling input, and rendering.
+This package provides a simple game engine framework named starcrusher2025. It allows developers to create 2D games using Pygame by providing essential functionalities such as managing the game window, controlling player entities, handling input, and rendering.
 
 ## Installation
-To install StarCrusher2025, use pip:
+To install starcrusher2025-games, use pip:
 
 ```bash
-pip install starcrusher2025
+pip install starcrusher2025-games
 ```
 
 ## Usage
-To use StarCrusher2025 in your Python projects, follow the examples below:
+To use starcrusher2025 in your Python projects, follow the examples below:
 
 ```python
 from starcrusher2025 import Game
@@ -109,3 +110,4 @@ game.window.set_size(800, 600)  # Sets the game window size
 
 # Start the game loop
 game.start()
+```
